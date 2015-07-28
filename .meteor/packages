@@ -41,3 +41,4 @@ telescope:update-prompt
 ############ Your Custom Packages ############
 
 # my-custom-package
+bruz:github-api

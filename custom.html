@@ -1,0 +1,76 @@
+<template name="custom_post_title">
+  	<a class="custom_post_title" href="{{custom_link}}">{{custom_title}}</a>
+  	<br/>
+  	<p class="custom_post_headline">
+  		{{services_headline}}
+  	</p>
+</template>
+
+<template name="custom_post_domain">
+</template>
+
+<template name="custom_post_thumbnail">
+	{{#if isEmpty services_thumbnail}}
+		<a href="/posts/{{this._id}}/{{this.slug}}">
+			<div class="post-thumbnail-container post-thumbnail" style="background-image:url( {{services_thumbnail}} )">
+	    		<div class="post-thumbnail-loading">{{>spinner}}</div>
+	  		</div>
+	  	</a>
+	{{/if}}
+</template>
+
+
+<template name="custom_post_body">
+
+
+	<div class="post-body markdown" aria-live="polite">
+		
+		<div class="col_sm-description">
+			{{services_abstract}}
+		</div>
+		
+		<div class="col-container">
+
+	    	<div class="col-sm-4" style="padding-left:0px;margin-left:0px;margin-right:0px;">
+	      		<div class="col_header"><a href="{{services_arxiv_url}}">arXiv</a></div>
+	      		<p class="markdown" aria-live="polite">
+	      			{{#markdown}}{{services_arxiv_abstract}}{{/markdown}}
+	      			<br/>
+	      			<strong><a href="{{services_arxiv_url}}">Read more...</a></strong>
+	      		</p>
+	    	</div>
+
+	    	<div class="col-sm-4" style="background-color:#f9f9f9;margin-right:0px;">
+	      		<div class="col_header"><a href="{{services_github_url}}">GitHub</a></div>
+				<p class="markdown" aria-live="polite">
+					
+					{{#markdown}}{{services_github_abstract}}{{/markdown}}
+					<br/>
+					<strong><a href="{{services_github_url}}">Read more...</a></strong>
+				</p>
+	      		<p>
+	      			<strong>Dependencies:</strong><br/>
+	      			<ul>
+				      	{{#each services_github_dependencies}} 
+				      		<li>{{this}}</li>
+						{{/each}}
+					</ul>
+	      		</p>
+	    		<hr/>
+			</div>
+
+			<div class="col-sm-4" style="padding-right:0px;margin-right:0px;">
+				<div class="col_header">Links</div>     
+				<ul>
+					{{#each services_links}} 
+						<li><a href="{{this}}">{{this}}.</a></li>
+					{{/each}}
+				</ul>
+			</div>
+
+		</div>
+
+	</div>
+</template>
+
+

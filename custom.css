@@ -1,0 +1,111 @@
+body{
+	background-color:#f9f9f9;
+}
+.dark-bg{
+	background-color: white;
+	color: #2b2b2b;
+	font-weight: 300;
+	font-size: 17px;
+}
+#search{
+	background-color: #f9f7f7;
+	color: #2b2b2b;
+}
+.post-thumbnail{
+	height: 90px;
+	width: 130px;
+	background-size: cover;
+	background-color: lightgray;
+	background-image: url("http://i.stack.imgur.com/2OrtT.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.btn-primary{
+	background-color: #8cea8a;
+	color: white!important;
+	font-size: 22px;
+}
+.autoform-remove-item{
+	background-color: #ed8b8b;
+}
+.autoform-add-item{
+	background-color: #8cea8a;
+}
+
+.col-container{
+	margin: 0px;
+	padding: 0px;
+}
+.col-sm-4{
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px;
+	padding-right: 20px;
+	word-wrap: break-word;
+	width: 100%;
+	max-width: 370px;
+}
+.col-sm-4 p{
+	padding: 0px;
+	margin-bottom: 0px;
+	padding-top: 5px;
+	padding-bottom: 8px;
+}
+
+@media (min-width: 800px) {
+	.col-container{
+		display: -webkit-flex;
+  		display: flex;
+	}
+  	.col-sm-4 {
+    	-webkit-flex: 1;
+   		flex: 1;
+  	}
+}
+@media (max-width: 800px) {
+  	.col-sm-4 {
+    	width: 100%;
+		max-width: 100%;
+  	}
+  	.custom_post_headline{
+  		font-size: 16px!important;
+  	}
+  	.col_sm-description{
+		font-size: inherit!important;
+	}
+}
+
+.col_sm-description{
+	font-size: 20px;
+	font-weight: 300;
+	border-bottom: 3px solid #f9f9f9;
+	padding-bottom: 20px;
+	margin-bottom: 0px;
+}
+.col_header{
+	margin-bottom: 15px;
+	font-size: 30px;
+	line-height: 32px;
+	font-weight: 700 !important;
+}
+.post-category{
+	font-weight: 400!important;
+}
+.custom_post_headline{
+	font-weight:300;
+	font-size: 18px;
+	line-height: 20px;
+}
+.custom_post_title{
+	font-weight:600;
+	font-size:22px;
+}
+hr{
+	border: 0px;
+	background-color: #f9f9f9;
+}
+h2{
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
