@@ -1,5 +1,5 @@
 # GitXiv
-[GitXiv.com](https://gitxiv.com/) - Collaborative Open Computer Science Links 
+[GitXiv.com](https://gitxiv.com/) - Collaborative Open Computer Science 
 
 ## Dependencies
 [Telescope](https://github.com/TelescopeJS/Telescope)  
