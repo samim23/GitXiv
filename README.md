@@ -1,6 +1,10 @@
 # GitXiv
 [GitXiv.com](https://gitxiv.com/) - Collaborative Open Computer Science 
 
+# Wiki
+The aim is, to keep the site as open as possible and let the community shape its future.  
+Check the [GitXiv wiki](https://github.com/samim23/GitXiv/wiki), where we discuss ideas and collaborate.
+
 ## Dependencies
 [Telescope](https://github.com/TelescopeJS/Telescope)  
 [Meteor](https://github.com/meteor/meteor)  
