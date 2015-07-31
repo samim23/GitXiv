@@ -11,8 +11,8 @@ In recent years, a highly interesting pattern has emerged: Computer scientists r
 - Check the [GitXiv wiki](https://github.com/samim23/GitXiv/wiki), where we discuss ideas and collaborate.
 
 ## Dependencies
-[Telescope](https://github.com/TelescopeJS/Telescope)  
-[Meteor](https://github.com/meteor/meteor)  
-[Node](https://github.com/nodejs/node)  
+- [Telescope](https://github.com/TelescopeJS/Telescope)  
+- [Meteor](https://github.com/meteor/meteor)  
+- [Node](https://github.com/nodejs/node)  
 
 
