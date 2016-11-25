@@ -15,4 +15,21 @@ In recent years, a highly interesting pattern has emerged: Computer scientists r
 - [Meteor](https://github.com/meteor/meteor)  
 - [Node](https://github.com/nodejs/node)  
 
+#Competitions
 
+##GitXiv Competitions We've all encountered this scenario: A highly interesting research paper gets released but it´s code / data are no where to be found. GitXiv Collaborative Open Computer Science Competitions aims to solve this problem.
+
+"We need to put our papers on arXiv because this is the way the field progresses most quickly." - Yann LeCun
+
+“We need to put our papers on arXiv and code/data on Github because this is the way the field progresses most quickly” - GitXiv
+##How does it work?
+
+Submit a research paper where the code/data is missing.
+The community discusses it and a competition is created.
+The community collaborates and decides who published the code/data first.
+The winner is rewarded with exposure on the GitXiv site and newsletter.
+##Active Competitions
+
+###Competition: Deep Q&A Name: Deep Q&A Neural Conversation Model (Google). Read more.
+Paper: http://arxiv.org/pdf/1506.05869v1.pdf
+Goal: Replicate the findings of the Deep Q&A research paper. Use libraries of choice. Upload your code here.
