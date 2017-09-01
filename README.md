@@ -1,3 +1,6 @@
+## Notice: I no longer maintain GitXiv (code&server). This Repo is just here or legacy reasons. Please address your Issues else where.
+
+
 # GitXiv
 [GitXiv.com](https://gitxiv.com/) - Collaborative Open Computer Science 
 
